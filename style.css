@@ -43,6 +43,7 @@ nav a:hover{
     width: 50%;
 }
 
+
 @media screen and (max-width:617px){
     .column.side , .column.middle{
         width: 100%;
@@ -50,8 +51,6 @@ nav a:hover{
 }
 }
     
-
-
 p{
    text-align: justify; 
 }
@@ -63,3 +62,42 @@ footer{
     text-align: center;
     color: white;
 }
+
+div.gallary{ 
+    margin: 5px;
+     border: 5px solid black;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover{
+    border: 5px solid red;
+}
+
+div.gallary img{
+    width: 100%;
+    height:auto ;
+}
+
+    div.description{
+        padding: 15px;
+        text-align: center;
+    }
+
+    input[type=text], select, textarea{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid blue;
+        margin-top:6px ;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit]{
+        background-color: green;
+        color: white;
+        padding: 12px 20px;
+        cursor: pointer;
+        border: none;
+        margin: 12px;
+    }
